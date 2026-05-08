@@ -179,11 +179,12 @@ Create a `.env` file inside the backend folder.
 ```env
 PORT=5000
 
-MONGO_URI=your_mongodb_connection_string
+MONGO_URI= mongodb+srv://godiselamalathi_db_user:bunny19@cluster0.spysb3x.mongodb.net/taskmanager
 
-JWT_SECRET=your_jwt_secret
+JWT_SECRET= mysecretjwtkey
 
-ADMIN_CODE=your_admin_secret_code
+ADMIN_EMAIL = admin@gmail.com
+ADMIN_PASSWORD = admin123
 ```
 
 ---
@@ -193,7 +194,7 @@ ADMIN_CODE=your_admin_secret_code
 # Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone < https://github.com/malathi1945/task-management-system.git >
 ```
 
 ---
