@@ -1,0 +1,386 @@
+{
+  "info": {
+    "_postman_id": "82f96e8a-a102-441d-80ae-75157f4d36ec",
+    "name": "Task Management API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "48131341",
+    "_collection_link": "https://go.postman.co/collection/48131341-82f96e8a-a102-441d-80ae-75157f4d36ec?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Register User",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Ammulu\",\r\n  \"email\": \"malathigodisela@gmail.com\",\r\n  \"password\": \"123456\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/v1/auth/register",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "auth",
+            "register"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Register User",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Ammulu\",\r\n  \"email\": \"malathigodisela@gmail.com\",\r\n  \"password\": \"123456\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:5000/api/v1/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "api",
+                "v1",
+                "auth",
+                "register"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "164"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"a4-R6mKabzCXTfvrbe/cMNhtf3Jvmc\""
+            },
+            {
+              "key": "Date",
+              "value": "Fri, 08 May 2026 16:12:42 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"success\": true,\n    \"message\": \"User registered successfully\",\n    \"user\": {\n        \"id\": \"69fe0b7a2b6393c12193da02\",\n        \"name\": \"Ammulu\",\n        \"email\": \"malathigodisela@gmail.com\",\n        \"role\": \"user\"\n    }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Register User",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Ammulu\",\r\n  \"email\": \"malathigodisela@gmail.com\",\r\n  \"password\": \"123456\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/v1/auth/register",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "auth",
+            "register"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Register User",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Ammulu\",\r\n  \"email\": \"malathigodisela@gmail.com\",\r\n  \"password\": \"123456\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:5000/api/v1/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "5000",
+              "path": [
+                "api",
+                "v1",
+                "auth",
+                "register"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": "",
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express",
+              "uuid": "4b9aab6e-6ab9-467a-905f-e7aa9da73738"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*",
+              "uuid": "ba421073-15d7-404b-bb7a-70cdc77c7e4a"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8",
+              "uuid": "852150fb-9e18-4ec5-bffb-8ff4ab68a0c7"
+            },
+            {
+              "key": "Content-Length",
+              "value": "164",
+              "uuid": "6df83225-db95-48cd-9987-df7438082e58"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"a4-R6mKabzCXTfvrbe/cMNhtf3Jvmc\"",
+              "uuid": "23f1b5b0-013c-4ef6-8baf-ca1bf246865f"
+            },
+            {
+              "key": "Date",
+              "value": "Fri, 08 May 2026 16:12:42 GMT",
+              "uuid": "b685f7db-a8d7-4532-9c32-2e95f0220c75"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive",
+              "uuid": "5137cf83-6d7a-4bc4-a01e-814a994c02da"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5",
+              "uuid": "b06db15d-38e4-4888-b91b-54366061208f"
+            }
+          ],
+          "cookie": [
+            {
+              "expires": "Invalid Date",
+              "domain": "",
+              "path": ""
+            }
+          ],
+          "body": "{\n    \"success\": true,\n    \"message\": \"User registered successfully\",\n    \"user\": {\n        \"id\": \"69fe0b7a2b6393c12193da02\",\n        \"name\": \"Ammulu\",\n        \"email\": \"malathigodisela@gmail.com\",\n        \"role\": \"user\"\n    }\n}"
+        }
+      ]
+    },
+    {
+      "name": "Login User",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"email\": \"malathigodisela@gmail.com\",\r\n  \"password\": \"123456\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/v1/auth/login",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "auth",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create Task",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZmUwYjdhMmI2MzkzYzEyMTkzZGEwMiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzc4MjU3MjYzLCJleHAiOjE3NzgzNDM2NjN9.YCiLqdOIunAuD-aqeQZmF5lJbVEC6YVZlEsLXUma1I8",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"title\": \"Frontend Integration\",\r\n  \"description\": \"Connect frontend with backend APIs\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/v1/tasks",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "tasks"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Task",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZmUwYjdhMmI2MzkzYzEyMTkzZGEwMiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzc4MjU3MjYzLCJleHAiOjE3NzgzNDM2NjN9.YCiLqdOIunAuD-aqeQZmF5lJbVEC6YVZlEsLXUma1I8",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:5000/api/v1/tasks",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "tasks"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update Task",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZmUwYjdhMmI2MzkzYzEyMTkzZGEwMiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzc4MjU3MjYzLCJleHAiOjE3NzgzNDM2NjN9.YCiLqdOIunAuD-aqeQZmF5lJbVEC6YVZlEsLXUma1I8",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"title\": \"Updated Task\",\r\n  \"status\": \"completed\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/api/v1/tasks/69fe0f172b6393c12193da03",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "tasks",
+            "69fe0f172b6393c12193da03"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete Task",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZmUwYjdhMmI2MzkzYzEyMTkzZGEwMiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzc4MjU3MjYzLCJleHAiOjE3NzgzNDM2NjN9.YCiLqdOIunAuD-aqeQZmF5lJbVEC6YVZlEsLXUma1I8",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:5000/api/v1/tasks/69fe0f172b6393c12193da03",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "v1",
+            "tasks",
+            "69fe0f172b6393c12193da03"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
