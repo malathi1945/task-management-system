@@ -4,16 +4,30 @@ A full-stack Task Management System built for the Backend Developer Internship A
 
 This project demonstrates:
 
-* JWT Authentication
-* Role-Based Access Control (RBAC)
-* Secure REST APIs
-* Admin Dashboard
-* User Dashboard
-* Full CRUD Operations
-* MongoDB Atlas Integration
-* React Frontend Integration
-* Protected Routes
-* Scalable Backend Structure
+- JWT Authentication
+- Role-Based Access Control (RBAC)
+- Secure REST APIs
+- Admin Dashboard
+- User Dashboard
+- Full CRUD Operations
+- MongoDB Atlas Integration
+- React Frontend Integration
+- Protected Routes
+- Scalable Backend Structure
+
+---
+
+# Live Deployment
+
+## Frontend Live URL
+
+https://task-management-system-psi-ten.vercel.app/
+
+---
+
+## Backend Live URL
+
+https://task-management-backend-xh7y.onrender.com
 
 ---
 
@@ -21,11 +35,11 @@ This project demonstrates:
 
 ## Authentication
 
-* User Registration
-* User Login
-* Admin Login
-* Password Hashing using bcryptjs
-* JWT Token Authentication
+- User Registration
+- User Login
+- Admin Login
+- Password Hashing using bcryptjs
+- JWT Token Authentication
 
 ---
 
@@ -33,19 +47,19 @@ This project demonstrates:
 
 ## User
 
-* Register/Login
-* Create Tasks
-* View Own Tasks
-* Update Own Tasks
-* Delete Own Tasks
+- Register/Login
+- Create Tasks
+- View Own Tasks
+- Update Own Tasks
+- Delete Own Tasks
 
 ## Admin
 
-* Login as Admin
-* View All Users
-* Manage Users
-* View All Tasks
-* Manage User Tasks
+- Login as Admin
+- View All Users
+- Manage Users
+- View All Tasks
+- Manage User Tasks
 
 ---
 
@@ -53,21 +67,21 @@ This project demonstrates:
 
 ## Frontend
 
-* React.js
-* Vite
-* React Router DOM
-* Axios
-* CSS
+- React.js
+- Vite
+- React Router DOM
+- Axios
+- CSS
 
 ## Backend
 
-* Node.js
-* Express.js
-* MongoDB Atlas
-* Mongoose
-* JWT
-* bcryptjs
-* express-validator
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose
+- JWT
+- bcryptjs
+- express-validator
 
 ---
 
@@ -88,9 +102,9 @@ Task-Management-System/
 │   ├── package.json
 │   └── .env
 │
-└── frontend/
-    ├── src/
-    │   ├── api/
+├── frontend/
+│   ├── src/
+│   │   ├── api/
 │   │   ├── components/
 │   │   ├── pages/
 │   │   ├── routes/
@@ -98,6 +112,9 @@ Task-Management-System/
 │   │
 │   ├── package.json
 │   └── vite.config.js
+│
+├── README.md
+└── Task-Management-API.postman_collection.json
 ```
 
 ---
@@ -179,12 +196,13 @@ Create a `.env` file inside the backend folder.
 ```env
 PORT=5000
 
-MONGO_URI= mongodb+srv://godiselamalathi_db_user:bunny19@cluster0.spysb3x.mongodb.net/taskmanager
+MONGO_URI=your_mongodb_connection_string
 
-JWT_SECRET= mysecretjwtkey
+JWT_SECRET=your_jwt_secret
 
-ADMIN_EMAIL = admin@gmail.com
-ADMIN_PASSWORD = admin123
+ADMIN_EMAIL=your_admin_email
+
+ADMIN_PASSWORD=your_admin_password
 ```
 
 ---
@@ -194,7 +212,7 @@ ADMIN_PASSWORD = admin123
 # Clone Repository
 
 ```bash
-git clone < https://github.com/malathi1945/task-management-system.git >
+git clone https://github.com/malathi1945/task-management-system.git
 ```
 
 ---
@@ -272,12 +290,12 @@ Authorization: Bearer TOKEN
 
 # Security Features
 
-* Password Hashing using bcryptjs
-* JWT Authentication
-* Protected Routes
-* Role-Based Authorization
-* Input Validation
-* Environment Variables for Secrets
+- Password Hashing using bcryptjs
+- JWT Authentication
+- Protected Routes
+- Role-Based Authorization
+- Input Validation
+- Environment Variables for Secrets
 
 ---
 
@@ -285,19 +303,19 @@ Authorization: Bearer TOKEN
 
 This project follows a modular backend architecture using:
 
-* Controllers
-* Routes
-* Middleware
-* Models
+- Controllers
+- Routes
+- Middleware
+- Models
 
 Potential future scalability improvements:
 
-* Redis caching
-* Docker deployment
-* Microservices architecture
-* Load balancing
-* API rate limiting
-* Centralized logging
+- Redis caching
+- Docker deployment
+- Microservices architecture
+- Load balancing
+- API rate limiting
+- Centralized logging
 
 ---
 
@@ -313,12 +331,26 @@ Task-Management-API.postman_collection.json
 
 # Future Improvements
 
-* Task filtering
-* Pagination
-* Notifications
-* File uploads
-* Refresh Tokens
-* Email Verification
+- Task filtering
+- Pagination
+- Notifications
+- File uploads
+- Refresh Tokens
+- Email Verification
+
+---
+
+# Final Submission Checklist
+
+- GitHub Repository
+- Frontend Deployment
+- Backend Deployment
+- Postman Collection
+- README.md
+- MongoDB Atlas Integration
+- Role-Based Access Control
+- JWT Authentication
+- Full CRUD Operations
 
 ---
 
